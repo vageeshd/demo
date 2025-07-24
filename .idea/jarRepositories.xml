@@ -4,7 +4,22 @@
     <remote-repository>
       <option name="id" value="central" />
       <option name="name" value="Central Repository" />
+      <option name="url" value="https://nexus-dev.onefiserv.net/repository/Maven_Central/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="Artifactory-Snapshot" />
+      <option name="name" value="maven" />
+      <option name="url" value="https://artifactory.bank.onefiserv.net/artifactory/maven-snapshot" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Central Repository" />
       <option name="url" value="https://repo.maven.apache.org/maven2" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="Artifactory" />
+      <option name="name" value="maven" />
+      <option name="url" value="https://artifactory.bank.onefiserv.net/artifactory/maven" />
     </remote-repository>
     <remote-repository>
       <option name="id" value="central" />
@@ -15,6 +30,11 @@
       <option name="id" value="jboss.community" />
       <option name="name" value="JBoss Community repository" />
       <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="Nexus" />
+      <option name="name" value="maven" />
+      <option name="url" value="https://nexus-dev.onefiserv.net/repository/mvn-gl-flume-public-group/" />
     </remote-repository>
   </component>
 </project>
